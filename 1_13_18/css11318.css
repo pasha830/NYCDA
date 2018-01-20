@@ -1,0 +1,60 @@
+span {
+  background-color: lightblue;
+  float: left;
+}
+
+.boxA{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  display: inline-block;
+
+}
+
+.boxB{
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  display: inline-block;
+
+}
+
+.boxC{
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  display: inline-block;
+}
+
+
+
+/* 
+  Two types of displays: Inline, block / inline-block
+
+    Inline - <span>, <a>, <img> (shares the line)
+  
+    block - <div>, <p> (doesnt share the line; if you want these tags to share the line use: inline-block   
+------------------
+  Position:
+    Static - (default)
+    Relative - will be relative to the other elements surrounding it
+    Absolute - layering, will show as the first object over the other objects
+    Fixed - 'scrolling' (ex: nav bar or chat box on website)
+------------------
+  Box-sizing:
+    Content-box (refers to the content within the box)
+    border-box (refers to the border)
+  
+------------------
+  @media (max-width: 640px / min-width: 1000px; {
+   .box1 {
+    width: 200px;
+    height: 20px;
+    }
+  }
+
+
+
+
+
+  */
