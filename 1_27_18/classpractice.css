@@ -1,0 +1,30 @@
+.red {
+  width: 45%;
+  height: 200px;
+  background-color: red;
+  display: inline-block;
+
+}
+
+.yellow {
+  width: 45%;
+  height: 200px;
+  background-color: yellow;
+  display: inline-block;
+
+}
+
+.green {
+  width: 45%;
+  height: 200px;
+  background-color: green;
+  display: inline-block;
+}
+
+
+.blue {  
+  width: 45%;
+  height: 200px;
+  background-color: blue;
+  display: inline-block;
+}

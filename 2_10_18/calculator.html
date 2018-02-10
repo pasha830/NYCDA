@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Tania's Calculator</title>
+</head>
+<body>
+
+<!-- ============$ CLICKED============== -->
+
+<h1>Calculator</h1>
+  
+  <fieldset>
+    <label>First Number</label>
+    <input type="number" id="num1">
+  </fieldset>
+  
+  <fieldset>
+    <label>Second Number</label>
+    <input type="number" id="num2">
+  </fieldset>
+
+  <fieldset>
+    <label>Select:</label>
+    <select id="ops">
+      <option>Add</option>
+      <option>Subtract</option>
+      <option>Divide</option>
+      <option>Multiply</option>
+    </select> 
+  </fieldset>
+
+    <fieldset>
+    <label>Result:</label>
+    <span id="result"></span>
+  </fieldset>
+
+  <button id="btn">Equals</button>
+  
+<!-- ============$ SCRIPTS============== -->
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>

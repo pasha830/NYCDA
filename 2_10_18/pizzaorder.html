@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Pizza Order</title>
+</head>
+<body>
+<!-- ============$ CHECKBOX============== -->
+
+<h1>Online Pizza Order</h1>
+  <fieldset>
+    <label>Name:</label>
+    <input type="text" id="name">
+  </fieldset>
+  <fieldset>
+    <label>Pizza size:</label>
+      <select id="size">
+        <option>small</option>
+        <option>medium</option>
+        <option>large</option>
+      </select> 
+  </fieldset>
+
+  <fieldset>
+    <label>Qty:</label>
+      <select id="qty">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+      </select> 
+  </fieldset>
+
+  <fieldset>
+    <label>Cheese</label>
+      <input type="checkbox" id="cheese">
+    <label>Pepperoni</label>
+     <input type="checkbox" id="pepperoni">
+    <label>Green Pepper</label>
+      <input type="checkbox" id="greenpepper">
+     <label>Olives</label>
+      <input type="checkbox" id="olives">
+  </fieldset>
+
+  <fieldset>
+    <label>Deliver:</label>
+      <input type="radio" id="deliver">
+      <br>
+    <label>Address1</label>
+      <input type="text" id="address1">
+      <br>
+    <label>Address2</label>
+      <input type="text" id="address2">
+      <br>
+    <label>City</label>
+      <input type="text" id="city">
+      <br>
+    <label>State</label>
+      <select id="state">
+        <option>NJ</option>
+        <option>NY</option>
+        <option>CT</option>
+      </select>
+      <br>
+    <label>Zip Code</label>
+      <input type="text" id="zip">
+  </fieldset>
+
+<div class="final">
+  <fieldset>
+    <span id="result"></span>
+  </fieldset>
+</div>
+
+  <button id="btn">Checkout</button>
+
+
+
+
+  
+<!-- ============$ SCRIPTS============== -->
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="pizzaorder.js"></script>
+</body>
+</html>
